@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:'Prata-Regular';
+    src:url(./fonts/Prata-Regular.ttf)
+}
+@font-face{
+    font-family:'WorkSans-Regular';
+    src:url(./fonts/WorkSans-Regular.ttf)
+}
+@media only screen and  (max-width: 768px){
+    body{
+        background-image: url(./images/mob-Background-Image.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        min-height:100vh !important;
+    }
+    .container-fluid{
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        background-size:cover !important;
+    }
+    .elle{
+        font-size: 30.5px !important;
+        line-height: 41px !important;
+    }
+    .glases img{
+        width: 92.01px !important;
+        height: 51.51px !important;
+    }
+    .glases{
+        margin-bottom:250px !important;
+    }
+    h2{
+        font-size: 50px !important;
+        line-height: 62px !important;
+    }
+    .COLLECTION{
+        font-size: 18px !important;
+        line-height: 21px !important;
+    }
+    .Summer{
+        font-size: 16px !important;
+        line-height: 19px !important;
+    }
+    input{
+        width:100% !important;
+    }
+    button{
+       
+        margin-top:6px !important;
+    }
+    form{
+        margin-bottom: 38px !important;
+    }
+}
+body{
+    background-image: url(./images/Background\ Image.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height:100vh;
+    overflow-x: hidden;
+}
+.container-fluid{
+    background-image:url(./images/Stroke.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:80%;
+}
+.elle{
+    font-family:'Prata-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35.8816px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+h2{
+    font-family:'Prata-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.COLLECTION{
+    font-family:'WorkSans-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.Summer{
+    font-family:'WorkSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.btn{
+    font-family:'WorkSans-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 13px 33px;
+}
+.btn:hover{
+    color: #FFFFFF !important;
+}
+input{
+    padding: 13px 14px;
+    font-family:'WorkSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: black;
+    width: 279px;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    outline: none;
+}
+input::placeholder{
+    font-family:'WorkSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: rgba(0, 0, 0, 0.3);
+   
+}
